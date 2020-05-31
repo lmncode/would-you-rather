@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+nav {
+  background: #10375c;
+}
+
+nav img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+nav h5 {
+  color: #faf4ff;
+}
+
+.navbar-nav .nav-link {
+  color: #faf4ff;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #007bff;
+}
+.card {
+  border: 1px solid #844685;
+}
+.card-header {
+  color: #faf4ff;
+  font-weight: 600;
+  background: #844685;
+}
+.card-body {
+  background: #faf4ff;
+}
+.card-body img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.login h1,
+.login p {
+  color: #10375c;
+}
+
+.login h2 {
+  color: #faf4ff;
+}
+.login.card {
+  max-width: 900px;
+}
+
+.login .card-header {
+  background: #faf4ff;
+  padding: 30px;
+}
+
+.login .card-body {
+  background: #844685;
+  padding: 50px;
+}
+
+.login {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.login select:focus {
+  outline: none;
+  border: #844685;
+}
+
+.nav-tabs button {
+  background: none;
+  color: #844685;
+}
+
+.nav-tabs button.active {
+  color: #dee2e6;
+}
+.nav-tabs button:focus {
+  outline: none;
+}
+.option {
+  padding: 10px;
+}
+.option.selected {
+  border: 2px solid #10375c;
+  background-color: rgba(0, 123, 255, 0.5);
+  box-shadow: 0 0 4px #007bff;
+}
+
+.progress-bar {
+  background-color: #10375c;
+  box-shadow: inset 0 0 4px #1686fd;
+}
